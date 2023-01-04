@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nodeid</class>
+ <widget class="QWidget" name="nodeid">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>7</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_nodeid_clearAll">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>clearAll</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_nodeid_update">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>update</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>411</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_1">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_2">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_3">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_4">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_5">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_6">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_7">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_8">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_9">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_10">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_11">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>11</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_12">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>12</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_13">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>13</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_14">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>14</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_15">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>15</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_16">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_17">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>17</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_18">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>18</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_19">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>19</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_20">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>20</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_21">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>21</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_22">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>22</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_23">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>23</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_24">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>24</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_25">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>25</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_26">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>26</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_27">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>27</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_28">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>28</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_29">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>29</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_30">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>30</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_31">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>31</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_32">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>32</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_33">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>33</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_34">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>34</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_35">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>35</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_36">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>36</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_37">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>37</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_38">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>38</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_39">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>39</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_40">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>40</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_41">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>41</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_42">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>42</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_43">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>43</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_44">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>44</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_45">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>45</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_46">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>46</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_47">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>47</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_48">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>48</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_49">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>49</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_50">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>50</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_51">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>51</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_52">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>52</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_53">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>53</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_54">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>54</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_55">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>55</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_56">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>56</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_57">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>57</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_58">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>58</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_59">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>59</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_60">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_61">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>61</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_62">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>62</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_63">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>63</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_64">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>64</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_65">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>65</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_66">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>66</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_67">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>67</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_68">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>68</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_69">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>69</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_70">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>70</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_71">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>71</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_72">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>72</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_73">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>73</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_74">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>74</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_75">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>75</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_76">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>76</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_77">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>77</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_78">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>78</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_79">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>79</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_80">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>80</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_81">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>81</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_82">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>82</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_83">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>83</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_84">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>84</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_85">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>85</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_86">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>86</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_87">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>87</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_88">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>88</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_89">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>89</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_90">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>90</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_91">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>91</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_92">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>92</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_93">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>93</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_94">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>94</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_95">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>95</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_96">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>96</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_97">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>97</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_98">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>98</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_99">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>99</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_100">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>100</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_101">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>101</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_102">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>102</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_103">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>103</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_104">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>104</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_105">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>105</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_106">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>106</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_107">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>107</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_108">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>108</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_109">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>109</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_110">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>110</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_111">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>111</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_112">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>112</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_113">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>113</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_114">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>114</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_115">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>115</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_116">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>116</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_117">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>117</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_118">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>118</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_119">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>119</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_120">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>120</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_121">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>121</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_122">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>122</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_123">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_124">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>124</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_125">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>125</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_126">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>126</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_nodeid_127">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>127</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
